@@ -13,3 +13,7 @@ fi
 # Customize to your needs...
 
 export PATH=~/Library/Android/sdk/platform-tools:~/Library/Android/sdk/tools:$PATH
+
+if [[ -d "$HOME/nub" ]]; then
+    eval "$($HOME/nub/bin/nub init -)"
+fi
